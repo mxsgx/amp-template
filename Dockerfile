@@ -1,6 +1,6 @@
 FROM php:7.4-apache
 
-# Instal php extension
+# Install php extension
 RUN docker-php-ext-install mysqli
 
 # Enable apache module
